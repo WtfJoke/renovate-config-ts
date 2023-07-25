@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", ":pinAllExceptPeerDependencies"],
+  "extends": ["config:base", ":pinAllExceptPeerDependencies", "schedule:earlyMondays"],
   "updateNotScheduled": true,
   "lockFileMaintenance": {
     "enabled": true,
@@ -28,6 +28,5 @@
       "schedule": ["monthly"]
     }
   ],
-  "timezone": "Europe/Berlin",
-  "schedule": ["every 2 weeks"]
+  "timezone": "Europe/Berlin"
 }
