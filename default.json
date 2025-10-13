@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", ":pinAllExceptPeerDependencies", "schedule:earlyMondays"],
+  "extends": ["config:base", ":pinAllExceptPeerDependencies", "schedule:earlyMondays", "customManagers:biomeVersions"],
   "updateNotScheduled": true,
   "lockFileMaintenance": {
     "enabled": true,
