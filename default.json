@@ -6,6 +6,12 @@
     "enabled": true,
     "commitMessageAction": "Update lock files"
   },
+  "minimumReleaseAge": "14 days",
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "automerge": true,
+    "minimumReleaseAge": null
+  },
   "packageRules": [
     {
       "matchPackageNames": [
