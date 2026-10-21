@@ -31,7 +31,8 @@
     {
       "matchUpdateTypes": ["lockFileMaintenance"],
       "automerge": true,
-      "schedule": ["monthly"]
+      "schedule": ["monthly"],
+      "minimumReleaseAge": null
     }
   ],
   "timezone": "Europe/Berlin"
